@@ -1,0 +1,17 @@
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\bin\Debug\net7.0\segundaPrac.exe
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\bin\Debug\net7.0\segundaPrac.deps.json
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\bin\Debug\net7.0\segundaPrac.runtimeconfig.json
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\bin\Debug\net7.0\segundaPrac.dll
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\bin\Debug\net7.0\segundaPrac.pdb
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\bin\Debug\net7.0\TextFile.dll
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.csproj.AssemblyReference.cache
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.AssemblyInfoInputs.cache
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.AssemblyInfo.cs
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.csproj.CoreCompileInputs.cache
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.csproj.CopyComplete
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.dll
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\refint\segundaPrac.dll
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.pdb
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\segundaPrac.genruntimeconfig.cache
+c:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\segundaPrac\obj\Debug\net7.0\ref\segundaPrac.dll

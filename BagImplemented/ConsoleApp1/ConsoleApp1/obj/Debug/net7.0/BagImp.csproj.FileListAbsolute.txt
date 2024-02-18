@@ -1,0 +1,17 @@
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.csproj.AssemblyReference.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.AssemblyInfoInputs.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.AssemblyInfo.cs
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.csproj.CoreCompileInputs.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\BagImp.exe
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\BagImp.deps.json
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\BagImp.runtimeconfig.json
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\BagImp.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\BagImp.pdb
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\TextFile.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.csproj.CopyComplete
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\refint\BagImp.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.pdb
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\BagImp.genruntimeconfig.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\Practice\BagImplemented\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ref\BagImp.dll
