@@ -1,0 +1,17 @@
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\CircleExists.exe
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\CircleExists.deps.json
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\CircleExists.runtimeconfig.json
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\CircleExists.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\CircleExists.pdb
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\TextFile.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.csproj.AssemblyReference.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.AssemblyInfoInputs.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.AssemblyInfo.cs
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.csproj.CoreCompileInputs.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.csproj.CopyComplete
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\refint\CircleExists.dll
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.pdb
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\CircleExists.genruntimeconfig.cache
+C:\Users\huipe\Documents\ELTE_SEMESTER\3\OOP\oopELTE2024\Practice2\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ref\CircleExists.dll
