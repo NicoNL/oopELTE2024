@@ -120,6 +120,10 @@ namespace IntegerBag
         #endregion
 
         #region Complementary Methods
+        public bool isEmpty()
+        {
+            return intList.Count() == 0;
+        }
         public override string ToString()
         {
             string setString = "[ ";

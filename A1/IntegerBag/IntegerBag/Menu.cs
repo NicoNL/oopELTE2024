@@ -37,6 +37,8 @@ namespace IntegerBag
                 }
                 switch (n)
                 {
+                    case 0:
+                        break;
                     case 1:
                         addElement();
                         break;
@@ -51,6 +53,11 @@ namespace IntegerBag
                         break;
                     case 5:
                         printBag();
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Please enter a number between 1 and 5:");
+                        enterToContinue();
                         break;
                 }
             } while (n != 0);
@@ -69,7 +76,7 @@ namespace IntegerBag
             Console.WriteLine(" 3. - Get the frequency of an element");
             Console.WriteLine(" 4. - Get the most frequent element of the Bag");
             Console.WriteLine(" 5. - Print your current Bag");
-            Console.Write(" Please write a number to Start: ");
+            Console.Write("\nPlease write a number to Start: ");
         }
         private void addElement()
         {
@@ -100,6 +107,12 @@ namespace IntegerBag
         private void removeElement()
         {
             Console.Clear();
+            if (bag.isEmpty())
+            {
+                Console.WriteLine("This Bag has no elements yet");
+                enterToContinue();
+                return;
+            }
             int element = 0;
             bool success;
             do
@@ -111,13 +124,6 @@ namespace IntegerBag
                     element = int.Parse(Console.ReadLine());
                     bag.removeInt(element);
                     success = true;
-                }
-                catch(IntegerBag.EmptyBagException)
-                {
-                    Console.Clear();
-                    success = false;
-                    Console.WriteLine("This bag is empty, add a number to remove it!!");
-                    break;
                 }
                 catch (System.FormatException)
                 {
@@ -143,6 +149,12 @@ namespace IntegerBag
         private void getFrequency() 
         {
             Console.Clear();
+            if (bag.isEmpty())
+            {
+                Console.WriteLine("This Bag has no elements yet");
+                enterToContinue();
+                return;
+            }
             int element = 0;
             int frequency = 0;
             bool success;
@@ -169,13 +181,6 @@ namespace IntegerBag
                     success = false;
                     Console.WriteLine("This element does not exist in this Bag");
                     enterToContinue();
-                }
-                catch (IntegerBag.EmptyBagException)
-                {
-                    Console.Clear();
-                    success = false;
-                    Console.WriteLine("This Bag has no elements yet");
-                    break;
                 }
             } while (!success);
             if (success)
