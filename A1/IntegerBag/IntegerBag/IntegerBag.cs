@@ -104,9 +104,13 @@ namespace IntegerBag
             return maxIndexFre;
         }
 
+        #endregion
+
+        #region Complementary Methods
+
         private void MaximumSearch()
         {
-            for(int i = 0; i < intList.Count(); i++)
+            for (int i = 0; i < intList.Count(); i++)
             {
                 int maxFre = 0;
                 if (maxFre < intList[i].Frequency)
@@ -116,10 +120,6 @@ namespace IntegerBag
                 }
             }
         }
-
-        #endregion
-
-        #region Complementary Methods
         public bool isEmpty()
         {
             return intList.Count() == 0;
