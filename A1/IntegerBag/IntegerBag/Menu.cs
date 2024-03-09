@@ -23,6 +23,7 @@ namespace IntegerBag
             int n = 0;
             do
             {
+                bool noNumber = true;
                 PrintMenu();
                 try
                 {
@@ -32,6 +33,7 @@ namespace IntegerBag
                 {
                     Console.Clear();
                     n = -1;
+                    noNumber = false;
                     Console.WriteLine("Please enter a valid input!!");
                     enterToContinue();
                 }
@@ -56,8 +58,11 @@ namespace IntegerBag
                         break;
                     default:
                         Console.Clear();
-                        Console.WriteLine("Please enter a number between 1 and 5:");
-                        enterToContinue();
+                        if(noNumber)
+                        {
+                            Console.WriteLine("Please enter a number between 1 and 5");
+                            enterToContinue();
+                        }
                         break;
                 }
             } while (n != 0);
@@ -117,8 +122,10 @@ namespace IntegerBag
             bool success;
             do
             {
+                Console.WriteLine("The bag structure is: [ (element, frequency)]");
+                Console.WriteLine("This is your bag: {0}", bag.ToString());
                 success = false;
-                Console.WriteLine("Please write an element you would like to remove from the Bag");
+                Console.WriteLine("\nPlease write an element you would like to remove from the Bag:");
                 try
                 {
                     element = int.Parse(Console.ReadLine());
@@ -142,12 +149,13 @@ namespace IntegerBag
             } while (!success);
             if (success)
             {
-                Console.WriteLine("Element {0} was removed to the Bag", element);
+                Console.WriteLine("Element {0} was removed from the Bag", element);
             }
             enterToContinue();
         }
         private void getFrequency() 
         {
+
             Console.Clear();
             if (bag.isEmpty())
             {
@@ -155,13 +163,15 @@ namespace IntegerBag
                 enterToContinue();
                 return;
             }
+            Console.WriteLine("The bag structure is: [ (element) ]");
+            Console.WriteLine("This is your bag: {0}", bag.ToStringElements());
             int element = 0;
             int frequency = 0;
             bool success;
             do
             {
                 success = false;
-                Console.WriteLine("Please write an element to get its frequency");
+                Console.WriteLine("\nPlease write an element to get its frequency:");
                 try
                 {
                     element = int.Parse(Console.ReadLine());

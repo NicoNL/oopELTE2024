@@ -13,34 +13,6 @@ namespace IntegerBag
         #endregion
 
         #region Attributes
-        private struct numberFrequency
-        {
-            private int number;
-            private int frequency;
-            public int Number
-            {
-                get { return number; }
-                set { number = value; }
-            }
-            public int Frequency
-            {
-                get { return frequency; }
-                set { frequency = value; }
-            }
-            public void IncrementFrequency()
-            {
-                this.frequency += 1;
-            }
-            public void DecreaseFrequency()
-            {
-                this.frequency -= 1;
-            }
-            public numberFrequency(int num, int feq)
-            {
-                number = num;
-                frequency = feq;
-            }
-        }
 
         private List<numberFrequency> intList;
         private int maxIndexFre;
@@ -58,10 +30,9 @@ namespace IntegerBag
         public void insertInt(int element)
         {
             int index = intList.FindIndex(n => n.Number == element);
-
             if (index != -1)
             {
-                intList[index] = new numberFrequency(element, intList[index].Frequency +1);
+                intList[index].IncrementFrequency();
                 if (maxIndexFre != index && intList[index].Frequency > maxIndexFre)
                 {
                     maxIndexFre = index;
@@ -79,7 +50,7 @@ namespace IntegerBag
             int index = intList.FindIndex(n => n.Number == element);
             if (index == -1) throw new NonExistingElementException();
 
-            intList[index] = new numberFrequency(element, intList[index].Frequency - 1);
+            intList[index].DecreaseFrequency();
             if (maxIndexFre == index)
             {
                 MaximumSearch();
@@ -144,6 +115,28 @@ namespace IntegerBag
                     setString += intList[i].Number;
                     setString += ",";
                     setString += intList[i].Frequency;
+                    setString += ")";
+                }
+            }
+            setString += "]";
+            return setString;
+        }
+        public string ToStringElements()
+        {
+            string setString = "[ ";
+            for (int i = 0; i < intList.Count(); i++)
+            {
+                if (i < intList.Count() - 1)
+                {
+                    setString += "(";
+                    setString += intList[i].Number;
+                    setString += ")";
+                    setString += ", ";
+                }
+                else
+                {
+                    setString += "(";
+                    setString += intList[i].Number;
                     setString += ")";
                 }
             }
