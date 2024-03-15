@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace IntegerBag
 {
@@ -123,7 +120,8 @@ namespace IntegerBag
             do
             {
                 Console.WriteLine("The bag structure is: [ (element, frequency)]");
-                Console.WriteLine("This is your bag: {0}", bag.ToString());
+                bool withElements = true;
+                Console.WriteLine("This is your bag: {0}", bag.ToStringElements(withElements));
                 success = false;
                 Console.WriteLine("\nPlease write an element you would like to remove from the Bag:");
                 try
@@ -163,14 +161,16 @@ namespace IntegerBag
                 enterToContinue();
                 return;
             }
-            Console.WriteLine("The bag structure is: [ (element) ]");
-            Console.WriteLine("This is your bag: {0}", bag.ToStringElements());
+
             int element = 0;
             int frequency = 0;
             bool success;
             do
             {
                 success = false;
+                Console.WriteLine("The bag structure is: [ (element) ]");
+                bool noFrequency = false;
+                Console.WriteLine("This is your bag: {0}", bag.ToStringElements(noFrequency));
                 Console.WriteLine("\nPlease write an element to get its frequency:");
                 try
                 {
@@ -247,7 +247,8 @@ namespace IntegerBag
             Console.Clear();
             Console.WriteLine("The bag structure is: [ (element, frequency)]");
             Console.WriteLine("This is your Bag: ");
-            Console.WriteLine(bag.ToString());
+            bool withFrequency = true;
+            Console.WriteLine(bag.ToStringElements(withFrequency));
             enterToContinue();
         }
         #endregion

@@ -1,20 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntegerBag
 {
     public class numberFrequency
     {
+        #region Attributes
         private int number;
         private int frequency;
+        #endregion
+
+        #region Properties
         public int Number
         {
             get { return number; }
             set { number = value; }
         }
+        #endregion
+
+        #region Methods
         public int Frequency
         {
             get { return frequency; }
@@ -33,5 +37,6 @@ namespace IntegerBag
             number = num;
             frequency = feq;
         }
+        #endregion
     }
 }
