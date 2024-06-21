@@ -1,0 +1,17 @@
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/bin/Debug/net8.0/HobbyAnimals
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/bin/Debug/net8.0/HobbyAnimals.deps.json
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/bin/Debug/net8.0/HobbyAnimals.runtimeconfig.json
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/bin/Debug/net8.0/HobbyAnimals.dll
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/bin/Debug/net8.0/HobbyAnimals.pdb
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/bin/Debug/net8.0/TextFile.dll
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.csproj.AssemblyReference.cache
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.GeneratedMSBuildEditorConfig.editorconfig
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.AssemblyInfoInputs.cache
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.AssemblyInfo.cs
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.csproj.CoreCompileInputs.cache
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAni.AF371599.Up2Date
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.dll
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/refint/HobbyAnimals.dll
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.pdb
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/HobbyAnimals.genruntimeconfig.cache
+/home/niconl/Documents/ELTE/3/OOP/A2/HobbyAnimals/obj/Debug/net8.0/ref/HobbyAnimals.dll

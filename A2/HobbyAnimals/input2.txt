@@ -1,0 +1,22 @@
+20
+T Arachno 70
+H Fluffy 25
+C Whiskers 40
+T Fang 35
+H Nibbles 20
+C Mittens 55
+T Silk 1
+H Peanut 1
+T Felix 25
+T Venom 50
+H Squeaky 35
+T Luna 40
+T Spooky 55
+H Cheeks 40
+C Simba 15
+T Creepy 10
+H Snickers 45
+C Shadow 43
+T Eightlegs 65
+H Fuzzball 50
+bubbbujbjubujubujubu
