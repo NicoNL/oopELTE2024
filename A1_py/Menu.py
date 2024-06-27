@@ -3,6 +3,9 @@ import pair
 import os
 
 class menu:
+    
+    def __init__(self):
+        self.__bag = IntegerBag.IntegerBag()
 
     def printMenu(self):
         print(
@@ -39,9 +42,10 @@ Enter 'exit' to leave the program""")
                     print("Please enter a number")
                     option = -1
                     self.pressContinue()
+            os.system('clear')
             match option:
                 case 1:
-                    print("Option 1")   
+                    self.__Add()   
                 case 2:
                     print("Option 2") 
                 case 3:
@@ -52,10 +56,29 @@ Enter 'exit' to leave the program""")
                     print("Option 5")
                 case _:
                     if option != -1:
-                        os.system('clear')
                         print("Please enter a valid number")
                         self.pressContinue()
 
+    def __Add(self):
+        while True:
+            try:
+                sucess = True
+                element =  int(input("Please enter a number to add to the Bag:\n"))
+                self.__bag.Insert(element)
+            except ValueError:
+                os.system('clear')
+                print("Please enter a number")
+                sucess = False
+                self.pressContinue()
+            except Exception as e:
+                os.system('clear')
+                print(str(e))
+                sucess = False
+                self.pressContinue()
+            if sucess:
+                print(f"The number {element} was added to the bag successfully")
+                self.pressContinue()
+                break                
 
 
                
