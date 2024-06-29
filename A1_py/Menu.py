@@ -47,7 +47,7 @@ Enter 'exit' to leave the program""")
                 case 1:
                     self.__Add()   
                 case 2:
-                    print("Option 2") 
+                    self.__Remove() 
                 case 3:
                     print("Option 3") 
                 case 4:
@@ -78,10 +78,38 @@ Enter 'exit' to leave the program""")
             if sucess:
                 print(f"The number {element} was added to the bag successfully")
                 self.pressContinue()
-                break                
-
-
-               
+                break
+    def __Remove(self):
+            if self.__bag.Length() == 0:
+                print(f"The bag is empty, please enter a number to the bag first!")
+                self.pressContinue()
+            else:
+                while True:
+                    try:
+                        sucess = True
+                        print(f"This is the bag {self.__bag}")
+                        element =  int(input("Please enter a number to add to the Bag:\n"))
+                        self.__bag.Remove(element)
+                    except ValueError:
+                        os.system('clear')
+                        print("Please enter a number")
+                        sucess = False
+                        self.pressContinue()
+                    except IntegerBag.ElementNotInBagException:
+                        os.system('clear')
+                        print("This number is not in the bag, please enter a number from the bag")
+                        sucess = False
+                        self.pressContinue()
+                    except Exception as e:
+                        os.system('clear')
+                        print(str(e))
+                        sucess = False
+                        self.pressContinue()
+                    if sucess:
+                        print(f"The number {element} was removed to the bag successfully")
+                        self.pressContinue()
+                        break           
+                
 
 
 
