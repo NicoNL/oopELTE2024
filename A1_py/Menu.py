@@ -88,7 +88,7 @@ Enter 'exit' to leave the program""")
                     try:
                         sucess = True
                         print(f"This is the bag {self.__bag}")
-                        element =  int(input("Please enter a number to add to the Bag:\n"))
+                        element =  int(input("Please enter a number to add to the Bag: \n"))
                         self.__bag.Remove(element)
                     except ValueError:
                         os.system('clear')
