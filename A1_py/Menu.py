@@ -1,9 +1,8 @@
 import IntegerBag
-import pair
 import os
 
+
 class menu:
-    
     def __init__(self):
         self.__bag = IntegerBag.IntegerBag()
 
@@ -13,17 +12,16 @@ class menu:
 Hello Welcome to the Integer Bag Program, please enter an option:
 
 1) Add an element to the Bag
-2) Remove an element from the Bag      
-3) Get frequency of an element from the Bag      
+2) Remove an element from the Bag
+3) Get frequency of an element from the Bag 
 4) Get the most frequent element from the bag
 5) Print the elements of the Bag
 
-Enter 'exit' to leave the program""")
-    
+Enter 'exit' to leave the program""") 
+
     def pressContinue(self):
         input("Press Enter to continue:\n")
         os.system('clear')
-
 
     def Run(self):
         option = None
@@ -35,7 +33,7 @@ Enter 'exit' to leave the program""")
             except ValueError:
                 if option == "exit":
                     os.system('clear')
-                    print ("See you next time!")
+                    print("See you next time!")
                     break
                 else:
                     os.system('clear')
@@ -63,7 +61,7 @@ Enter 'exit' to leave the program""")
         while True:
             try:
                 sucess = True
-                element =  int(input("Please enter a number to add to the Bag:\n"))
+                element =int(input("Please enter a number to add to the Bag:\n"))
                 self.__bag.Insert(element)
             except ValueError:
                 os.system('clear')
@@ -89,7 +87,7 @@ Enter 'exit' to leave the program""")
                     try:
                         sucess = True
                         print(f"This is the bag {self.__bag}")
-                        element =  int(input("Please enter a number to add to the Bag: \n"))
+                        element = int(input("Please enter a number to add to the Bag:\n"))
                         self.__bag.Remove(element)
                     except ValueError:
                         os.system('clear')
@@ -113,14 +111,14 @@ Enter 'exit' to leave the program""")
                     
     def __Frequency(self):
         if self.__bag.Length() == 0:
-            print(f"The bag is empty, please enter a number to the bag first!")
+            print("The bag is empty, please enter a number to the bag first!")
             self.pressContinue()
         else:
             while True:
                 try:
                     sucess = True
                     print(f"This is the bag {self.__bag}")
-                    element =  int(input("Please enter a number to obtain the frequency: \n"))
+                    element =  int(input("Please enter a number to obtain the frequency:\n"))
                     freq = self.__bag.GetFrequency(element)
                 except ValueError:
                     os.system('clear')
@@ -141,7 +139,3 @@ Enter 'exit' to leave the program""")
                     print(f"The number {element} has a frequency of {freq}")
                     self.pressContinue()
                     break
-                
-
-
-
