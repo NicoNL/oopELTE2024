@@ -49,9 +49,9 @@ Enter 'exit' to leave the program""")
                 case 3:
                     self.__Frequency()
                 case 4:
-                    print("Option 4")
+                    self.__MostFrequent()
                 case 5:
-                    print("Option 5")
+                    self.__Print()  
                 case _:
                     if option != -1:
                         print("Please enter a valid number")
