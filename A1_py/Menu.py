@@ -43,9 +43,9 @@ Enter 'exit' to leave the program""")
             os.system('clear')
             match option:
                 case 1:
-                    self.__Add()   
+                    self.__Add() 
                 case 2:
-                    self.__Remove() 
+                    self.__Remove()
                 case 3:
                     self.__Frequency()
                 case 4:
@@ -139,3 +139,13 @@ Enter 'exit' to leave the program""")
                     print(f"The number {element} has a frequency of {freq}")
                     self.pressContinue()
                     break
+
+    def __MostFrequent(self):
+        if self.__bag.Length() == 0:
+            print("The bag is empty, please enter a number to the bag first!")
+            self.pressContinue()
+        else:
+            return self.__bag.GetMax()
+
+    def __Print(self):
+            print(f"This is your bag:\n{self.__bag}")
