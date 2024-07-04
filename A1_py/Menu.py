@@ -1,6 +1,6 @@
 import IntegerBag
 import os
-
+import pair
 
 class menu:
     def __init__(self):
@@ -39,7 +39,6 @@ Enter 'exit' to leave the program""")
                     os.system('clear')
                     print("Please enter a number")
                     option = -1
-                    self.pressContinue()
             os.system('clear')
             match option:
                 case 1:
@@ -87,7 +86,7 @@ Enter 'exit' to leave the program""")
                     try:
                         sucess = True
                         print(f"This is the bag {self.__bag}")
-                        element = int(input("Please enter a number to add to the Bag:\n"))
+                        element = int(input("Please enter a number to remove from to the Bag:\n"))
                         self.__bag.Remove(element)
                     except ValueError:
                         os.system('clear')
@@ -141,11 +140,13 @@ Enter 'exit' to leave the program""")
                     break
 
     def __MostFrequent(self):
-        if self.__bag.Length() == 0:
-            print("The bag is empty, please enter a number to the bag first!")
-            self.pressContinue()
+        maxList, maxF = self.__bag.GetMax()
+        if len(maxList) == 1:
+            print(f"The most frequent number is {maxList[0]} with a frequency of {maxF}")
         else:
-            return self.__bag.GetMax()
+            print(f"These numbers are the most frequent {maxList} with a frequency of {maxF}")
+        self.pressContinue()
 
     def __Print(self):
-            print(f"This is your bag:\n{self.__bag}")
+        print(f"This is your bag:\n{self.__bag}")
+        self.pressContinue()

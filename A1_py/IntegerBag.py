@@ -53,7 +53,7 @@ class IntegerBag:
                 maxL.clear()
                 maxL.append(e.getNumber())
                 maxF = e.getFrequency()
-        return(maxL, maxF)
+        return maxL, maxF
         
     def __Includes(self,element):
         for e in self.__elements:
@@ -63,7 +63,7 @@ class IntegerBag:
 
     def __str__(self):
         elems_str = [str(e) for e in self.__elements]
-        return "[ " + ",".join(elems_str) + "]"    
+        return "[" + ",".join(elems_str) + "]"    
 
     def Length(self):
         return len(self.__elements)
