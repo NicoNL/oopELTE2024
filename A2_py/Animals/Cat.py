@@ -4,4 +4,10 @@ class Cat(Animal):
         self.ex = ex
         self.type = type
     def changeEx(self, mood : Mood):
-        
+        match mood:
+            case Mood.JOYFUL:
+                self._increaseEx(3)
+            case Mood.USUAL:
+                self._increaseEx(3)
+            case Mood.BLUE:
+                self._decreaseEX(7)
