@@ -3,3 +3,5 @@ class Cat(Animal):
         self.name = name
         self.ex = ex
         self.type = type
+    def changeEx(self, mood : Mood):
+        
