@@ -4,7 +4,11 @@ class Steve:
         self.__mood = mood
     def setMood(self, Mood: mood):
         self.__mood = mood
-
+    def improvableDay(self):
+        for animal in self.__animals:
+            if animal.getEx < 5 and animal.getEx > 0:
+                return False
+        return True
 
 
 
