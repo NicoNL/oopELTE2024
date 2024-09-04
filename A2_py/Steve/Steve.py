@@ -9,6 +9,17 @@ class Steve:
             if animal.getEx < 5 and animal.getEx > 0:
                 return False
         return True
+    def takeCareOfAnimals(self):
+        for animal in self.__animals:
+            try:
+                animal.changeEx(self.__mood)
+            except Animal.DeadAnimalException as e:
+                pass
+            except Animal.LimitExhilarationException as es:
+                pass
+            finally:
+                pass
+        
 
 
 
