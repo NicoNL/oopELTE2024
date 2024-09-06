@@ -10,6 +10,7 @@ class Steve:
             if animal.getEx < 5 and animal.getEx > 0:
                 return False
         return True
+        
     def takeCareOfAnimals(self):
         for animal in self.__animals:
             try:
@@ -20,6 +21,7 @@ class Steve:
                 pass
             finally:
                 pass
+
     def biggestEx(self):
         self.__bestAnimals = []
         maxAnimal = self.__animals[0]
